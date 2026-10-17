@@ -1,1 +1,298 @@
-# thecryptidstudios.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G;rk_newsletter</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon-64.png">
+<link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="favicon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroller"></div>
+<header>G;rk_newsletter
+<button class="burger" id="burger" aria-label="menu" aria-expanded="false" aria-controls="toc_panel">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+  <button class="calm_btn" id="calm_btn" aria-label="motion sickness mode" title="motion sickness mode" aria-pressed="false">
+  <svg class="calm_icon icon_wave" viewBox="0 0 16 16" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="square" aria-hidden="true">
+  <path d="M1 4.5c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+  <path d="M1 8c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+  <path d="M1 11.5c2-2.5 4-2.5 6 0s4 2.5 6 0" />
+</svg>
+  <svg class="calm_icon icon_eye" viewBox="0 0 16 16" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="miter" aria-hidden="true">
+  <path d="M1 8V6H3V5H5V4H11V5H13V6H15V8V10H13V11H11V12H5V11H3V10H1Z" />
+  <path d="M6 6H10V10H6Z" fill="currentColor" stroke="none" />
+</svg>
+  </button>
+</header>
+<div class="toc_panel hidden" id="toc_panel">
+  <nav class="toc">
+  <button class="toc_btn" data-target="introduction">introduction</button>
+  <button class="toc_btn" data-target="general_redesigns">general redesigns</button>
+  <button class="toc_btn" data-target="entity_redesigns">entity redesigns</button>
+  <button class="toc_btn toc_sub" data-target="mime">mime</button>
+  <button class="toc_btn toc_sub" data-target="rue">rue</button>
+  <button class="toc_btn toc_sub" data-target="covet">covet</button>
+  <button class="toc_btn toc_sub" data-target="seesay">seesay</button>
+  <button class="toc_btn toc_sub" data-target="kookoo">kookoo</button>
+  <button class="toc_btn toc_sub" data-target="drain">drain</button>
+  <button class="toc_btn toc_sub" data-target="snap">snap</button>
+  <button class="toc_btn toc_sub" data-target="joey">joey</button>
+  <button class="toc_btn toc_sub" data-target="goatman">goatman</button>
+  <button class="toc_btn" data-target="gameplay">gameplay?</button>
+  <button class="toc_btn" data-target="release_date">release date</button>
+  <button class="toc_btn" data-target="alpha">alpha??</button>
+  <button class="toc_btn" data-target="unique_features">unique features</button>
+  <button class="toc_btn" data-target="other_teases">other teases</button>
+  <button class="toc_btn" data-target="minor_issues">minor issues</button>
+  <button class="toc_btn" data-target="how_you_can_help">how you can help</button>
+  <button class="toc_btn" data-target="no_funding">please do not fund</button>
+  <button class="toc_btn" data-target="conclusion">conclusion</button>
+  </nav>
+</div>
+<button class="mute_btn" id="mute_btn" aria-label="mute background music" title="mute background music" aria-pressed="false">
+  <svg class="mute_icon icon_sound" viewBox="0 0 16 16" width="20" height="20" fill="currentColor" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" aria-hidden="true">
+  <path d="M1 6H4L7.5 3V13L4 10H1Z" stroke="none" />
+  <path d="M10 6.2C11.2 7.3 11.2 8.7 10 9.8" fill="none" />
+  <path d="M12.4 4.2C14.6 6.3 14.6 9.7 12.4 11.8" fill="none" />
+</svg>
+  <svg class="mute_icon icon_muted" viewBox="0 0 16 16" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square" aria-hidden="true">
+  <path d="M2 6H5L8.5 3V13L5 10H2Z" fill="currentColor" stroke="none" />
+  <path d="M11 6L15 10" />
+  <path d="M15 6L11 10" />
+</svg>
+  </button>
+<main class="page" id="page">
+  <img class="banner" width="650" height="203" alt="God happy(extend)"
+  src="musics/stuff/God%20happy%28extend%29.gif" />
+  <section id="welcome">
+  <h2>welcome 🤍</h2>
+  <p>Background getting you sick? Toggle motion sickness mode by hitting the wavey burger menue at the top right!</p>
+  <p>Tired of the music? Hit the speaker button at the bottom right to mute it!(And if you can't hear the music at all, try refreshing the page)</p>
+  <p>Have a topic you're particularly interested in? Use one of these to skip straight to it using the hamburger menu!! However, I recommend reading in its entirety.</p>
+  </section>
+  <section id="introduction">
+  <h2>introduction</h2>
+  <p>hey everyone! this is frank, most of you probably know me as frankthetrash on discord typing all this, and let me start off by saying thank you all so much for getting us to 1k members. truth be told, we had planned to get this done regardless of our member count, as we've always had a lot to show you all, and we just feel the regular teaser structure wouldn't do you guys any justice.</p>
+  <p>a majority of us on the team don't like the idea of showing off the visual aspects of our game and nothing else. because truth be told art is pretty easy for us. so we wanted to wait for gameplay. but that gameplay was quite a challenge to handle and we don't want to leave you guys in the dark. so this was our next best option. Oh, and for anyone visiting from outside of the Grace Rekindled Discord server; firstly, hi, thanks for taking the time to check us out. And if you want to see other teasers that weren't featured here and future ones, do feel free to join our discord server. This newsletter is meant to be a lot more casual compared to how we normally tease stuff, so I really hope you all are comfortable with the format we got here.</p>
+  </section>
+  <section id="general_redesigns">
+  <h2>general redesigns</h2>
+  <p>every, or at least almost every asset in the game has been completely remade from the ground-up from og grace. that may sound like the bare minimum, but we do mean every asset. the rooms and lobby were completely built from scratch by the map building team (mostly missinginvestigator, he's the goat) but that's a major reason things take a while. we even rebuilt the code itself from scratch which was a lot harder to do than you think and still comes up with bugs</p>
+  </section>
+  <section id="entity_redesigns">
+  <h2>entity redesigns</h2>
+  <article id="mime">
+  <h3>mime</h3>
+  <img width="300" height="175" alt="Mime Rekindled"
+  src="musics/stuff/Mime%20Rekindled.gif" />
+  <p>mime was one of the first entities we made for the game. i'm sure you can tell from ....i mean look at it. we decided to make mime a lot more simplistic mostly because, back in the original grace there was a lot of confusion about if mime's long mouth was actually a head (truth be told, i was one of the people that thought that) but don't worry, long mouth mime isn't gone from the game completely, you can trust me on that.</p>
+  <p>fun fact! when we first started testing mime's code in the game, me and the main scripter feara, didn't actually know it was even implemented in the game. so, while i was testing it i kept dying randomly. i thought it was goatman, feara thought it was a carnation bug. turned out to be an invisible mime. guess it just sorta invited itself. do with that what you will.</p>
+  <p>there's like a 25% chance our game might be haunted dw bout it tho</p>
+  <img class="inline_img" width="50" height="37.5" alt="Rare mime screen"
+  src="musics/stuff/Rare%20mime%20screen.png" />
+  </article>
+  <article id="rue">
+  <h3>rue</h3>
+  <img width="144" height="270" alt="Rue concept2"
+  src="musics/stuff/Rue%20concept2.gif" />
+  <p>with rue, we wanted to make it look a lot more human like in a way, giving it a slightly similar silhouette to the average sinner, while also keeping the long head that give it its general appeal.</p>
+  <p>fun fact! rue originally had transparent eyes, but i got rid of it because it would've looked really odd in-game. plus, it gives it a more notable characteristic.</p>
+  </article>
+  <article id="covet">
+  <h3>covet</h3>
+  <img width="169" height="165" alt="Covet Idle"
+  src="musics/stuff/Covet%20Idle.gif" />
+  <p>⚾</p>
+  <p>there was no major thought process behind this one, we just thought it looked pretty cool. minor fun fact though, this was actually designed by 3 people! 1831 did the base design, julian/divinecomedy did the keyposes, and i animated em<img class="inline_img" width="102" height="209" alt="Covet charge"
+  src="musics/stuff/Covet%20charge.gif" /><img
+  class="inline_img" width="130" height="114" alt="Covet prep"
+  src="musics/stuff/Covet%20prep.gif" /></p>
+  </article>
+  <article id="seesay">
+  <h3>seesay</h3>
+  <img width="320" height="320" alt="Seesay GRK Idle"
+  src="musics/stuff/Seesay%20GRK.GIF" />
+  <p>i'm fairly sure seesay was the second or third ever entity to be finished design-wise. it was made by neptune, for anyone that knows neptune, this probably isn't a surprise to anyone. we wanted to keep seesay's whole cutesy appeal while also making it more gender neutral if that makes sense? so we cut the sharp edges of the eyes that made it a bit more feminine, and we made the mouth wider to avoid the claims of it being a nose that the original game got. we also completely changed the eye shape because we genuinely could not figure out the lore significance of seesay of all entities having crosses in its eyes fun fact: back in ascended soul, we were quite directionless to be completely honest, so the original seesay design actually leaned more into the feminine look with eyelashes. i don't think they were intentional but you could really easily tell. that old ssesay design is lost medias though unfortunately.</p>
+  </article>
+  <article id="kookoo">
+  <h3>kookoo</h3>
+  <img width="500" height="500" alt="Kookoo GRK"
+  src="musics/stuff/Kookoo%20GRK.GIF" />
+  <p>kookoo (designed by dottoe1) was one of the first entities to get completely and utterly completed, everything outside the actual code had been done for this entity. there wasn't any major thought process to this redesign as far as i'm aware, but i believe it gets the job done. fun fact: because of their connection to the internet, kookoo's jumpscare screen was originally going to feature duk. this was scraped though because outside of that connection, which was only really brought by grace's retro collab anyways, they have no reason to be related like that.</p>
+  </article>
+  <article id="drain">
+  <h3>drain</h3>
+  <img width="600" height="350" alt="Dependncy" src="musics/stuff/Dependency.gif"/>
+  <p>drain was originally meant to be its own teaser, we had gotten the model out a good while ago(model by malk), but every time we needed it animated our 3d animators would mysteriously vanish, true story! i would get into the thought process of putting the censor scribble where the head should be and making it appear docile when not active, but drain as a whole is a very nuanced topic to get into, so i'd rather not do it here.</p>
+  </article>
+  <article id="snap">
+  <h3>snap</h3>
+  <img width="128" height="128" alt="Snap idle" src="musics/stuff/Snap%20idle.GIF" />
+  <img width="128" height="128" alt="Snap pet" src="musics/stuff/Snap%20pet.GIF" />
+  <p>snap was another one of those more intricate entities to design (designed by nyxx), which is in striking contrast to how genuinely challenging it is to actually script this lil doofus. but we're still confident that we can handle it before the day of release.<img class="inline_img" width="120" height="120" alt="Snap goober"
+  src="musics/stuff/Snap%20goober.GIF" /></p>
+  </article>
+  <article id="joey">
+  <h3>joey</h3>
+  <img width="562" height="147" src="musics/stuff/Joey-hey what dat.png"/>
+  <p>Ignore the shadow.</p>
+  <p>With joey (model by silverbolt) we decided to make it a little bit cartoony while also giving it some slightly anatomical proportions to make it easier to animate. there's a lot more to say about it mechanics wise if nothing else. we took a tiny bit of inspiration from an old pressure teaser for how joey could behave and plan on integrating it into the game. essentially joey's meant to wander around a room like an npc, and if you walk into it or exit that room, it automatically goes into your inventory. why would we do this? because our rat is adorable, why else? Admitedly, the design IS still a work in progress, but this is the general vibe we're going for</p>
+  <p>Fun Fact! Out of every entity in the game, Joey's by far the one with the most concept art drawn (All by Calfrog)</p>
+<img width="528" height="528" alt="JoeyConcept1" src="musics/stuff/JoeyConcept1.png" />
+<img width="649" height="497" alt="JoeyConcept2" src="musics/stuff/JoeyConcept2.png" />
+<img width="625" height="528" alt="JoeyConcept3" src="musics/stuff/JoeyConcept3.png" />
+<img width="528" height="528" alt="JoeyConceptFinal" src="musics/stuff/JoeyConceptFinal.png" />
+  </article>
+  <article id="goatman">
+  <h3>goatman</h3>
+  <img width="800" height="450" alt="Goat360" src="musics/stuff/Goat360.gif"/>
+<p>okay, i know we already teased goatman, but i just needed to put this fun fact out there, and also let you guys get a better look at the model (Animation by Uncle Mike). back when we weren't taking game development too seriously, silverbolt made it double cheeked up. 
+    <a class="img_link" href="musics/stuff/Gyattman.png" target="_blank" rel="noopener">gyattman</a>
+  so, i asked for the obj file and went into blender to tear it off myself, which led to the creation of this beautiful image.</p>
+  <img width="521" height="386" alt="Screenshot 2026-10-12 144628"
+  src="musics/stuff/Screenshot%202026-10-12%20144628.png" />
+  </article>
+  </section>
+  <section id="gameplay">
+  <h2>gameplay?</h2>
+  <p>i'm sure you get the idea by now. we have a rather hefty catalogue of entities, if we were to name all of them we would be here all day. Just know that we also have Ire and Litany, but those two are even heavier WIP, so we're opting not to show it. The majorly important questions i'm sure are on your minds are "is there gameplay?" "when is it coming out?"</p>
+  <p>we planned on showing the gameplay here, unfortunately all the footage I captured for it was just not up to standard. Just trust me on this, it would strain your eyes trying to make out the gameplay, nobody wants that. So, as compensation, we will be posting the gamplay onto the discord server on a later date after this newsletter drops, so more inscentive to join that if you haven't already.</p> 
+  <p>i suppose that leads to the next most important question</p>
+  </section>
+  <section id="release_date">
+  <h2>release date</h2>
+  <center><p class="big_date">"november 27th"</p></center>
+  <p>what? did you expect me to beat around the bush about it? nah our aim is to release the alpha build of the game on that date. those of you that were around for the qna held during grace's anniversary might have heard it before, but we have always intended to release the game by november. if we don't release anything on or before that date, just assume we're going to release it some time <span class="hl_yellow">mid december</span> to finalize things. but now that begs another question</p>
+  </section>
+  <section id="alpha">
+  <h2>alpha??</h2>
+  <p>the alpha build of the game is intended to be the most barebones essentials version of the game. it's basically meant to function as a demo, actually less of a demo more of a playtest. it's going to feature the lobby, the main grace game mode, including every new entity we've been cooking up, a flashlight and lantern, and a few custom player animations. after which we will be getting into the meat and bone of the other core parts of the game.</p>
+  </section>
+  <section id="unique_features">
+  <h2>unique features</h2>
+  <p>i get the feeling a lot of people are into grace remakes for the sake of the domains, and everything else is treated as an after thought. this isn't just a community expectation thing either, i've noticed a lot of devs do that sort of thing as well, at least going off how they tease their stuff, not trying to name names. and don't get it wrong, we enjoy domains as much as anyone else, however, we feel it's important to have other completely unique game modes available. now, like i already mentioned. we're more locked in on the base game right now, so we can't exactly directly tell you what we have to show for other game modes, but what i can say is what we plan on changing.</p>
+  <ul>
+  <li>zen and reprieve are receiving a general design revamp which comes with buffing certain entities.</li>
+  <li>big plans to make chaos mode a lot more chaotic.</li>
+  <li>mutter with a higher focus on the third person aspect (no we are not keeping the rhythm game aspect, however we aim to make it substantially funky)</li>
+  <li>a completely separate rhythm minigame</li>
+  <li>an entirely new game mode that functions as a much more fun version of rot (we are not getting rid of rot don't worry)</li>
+  <li>some very fun new items</li>
+  </ul>
+  <p>please bare in mind everything said here is subject to change, but these are just some of the things we will majorly be working towards for the future</p>
+  </section>
+  <section id="other_teases">
+  <h2>other teases</h2>
+  <p>one of the most important things to grace was definitely the music, and i'm sure you've noticed a distinct lack of it on our side. truth be told, just like our art teases, we just felt weird teasing music without anything else to it, but since we're doing it now, let us make it up. The song you've been listening to this entire time is our official rendition of "The rest was silence" simply called "Heart of Stone" by Wing.</p>
+  <p>Speaking of Wing,while we're nowhere near working on domains yet, we DO have a very small snippet of an idea we've had for Sorrow's domain. So please, tell us what you think, but don't expect too much.</p>
+
+  <a class="player player_link" href="https://www.youtube.com/watch?v=l435o7AhDLQ" target="_blank" rel="noopener">
+  <div class="player_head">
+  <span class="player_title">heart of stones</span>
+  </div>
+  <div class="player_row">
+  <span class="player_play" aria-hidden="true"></span>
+  <span class="player_seek_fake" aria-hidden="true"><span class="player_knob"></span></span>
+  <span class="player_time">0:00 / 0:40</span>
+  </div>
+  </a>
+  <p>Like I said, nothing too crazy, sorry if it was a little too short.</p>
+
+  <div class="player" data-src="musics/stuff/Where%20i%20need%20to%20go.ogg">
+  <div class="player_head">
+  <span class="player_title">where i need to go</span>
+  </div>
+  <div class="player_row">
+  <button class="player_play" aria-label="play where i need to go"></button>
+  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek where i need to go">
+  <span class="player_time">0:00</span>
+  </div>
+  </div>
+<p>This song was produced by Prod Rubber. We had quite a hard time figuring out the vibe that could perfectly replicate Ultrasonic faith, but we decided to have an original spin on it. We didn't want it to be TOO overstimulating, especially with everything that happens in the average game, but truth be told, we're still trying to find a good balance. That said, please let us know what you think of it, all input helps!</p>
+
+  <div class="player" data-src="musics/stuff/Where%20grace%20keeps%20me.ogg">
+  <div class="player_head">
+  <span class="player_title">where grace keeps me</span>
+  </div>
+  <div class="player_row">
+  <button class="player_play" aria-label="play where grace keeps me"></button>
+  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek where grace keeps me">
+  <span class="player_time">0:00</span>
+  </div>
+  </div>
+<p>This was also produced by Prod Rubber. I believe he did a good job capturing the calming vibe of the original theme for the lobby while also making it its own thing. It's a bit on the shorter side, but I believe it does the job.</p>
+
+  <div class="player" data-src="musics/stuff/Lapse%20in%20Judgement%20snippet.mp3">
+  <div class="player_head">
+  <span class="player_title">lapse in judgement snippet</span>
+  </div>
+  <div class="player_row">
+  <button class="player_play" aria-label="play lapse in judgement snippet"></button>
+  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek lapse in judgement snippet">
+  <span class="player_time">0:00</span>
+  </div>
+  </div>
+  <div class="player" data-src="musics/stuff/Retribution%20snippet.mp3">
+  <div class="player_head">
+  <span class="player_title">retribution snippet</span>
+  </div>
+  <div class="player_row">
+  <button class="player_play" aria-label="play retribution snippet"></button>
+  <input type="range" class="player_seek" min="0" max="1000" step="1" value="0" aria-label="seek retribution snippet">
+  <span class="player_time">0:00</span>
+  </div>
+  </div>
+<p>While we don't plan on releasing the flipside along with the alpha, it IS planned to come with the beta, hence we have the song for both spoiled Zen; "Lapse in Judgement, and a much more original track for Reprieve; "Retribution" which I'm sure a lot of you who came from Wing's channel had heard a bit of. Had to cut em a lil shorter though, can't have you guys having too much fun.</p>
+
+  </section>
+  <section id="minor_issues">
+  <h2>minor issues</h2>
+<p>About that absent gameplay footage again, you were definitely bound to notice some flaws here and there. whether it was misaligned rooms, flying over certain walls, Some entities just looking off, or not appearing at all thanks to the limitations of roblox. The point is, this game at this point of development still has its quirks and unfinished aspects, but the fact is a lot of devs have personal stuff that requires their immediate attention. Injuries, school exams, general demotivation, you name it, a core member of the team has probably been through it. What I'm trying to say is, please be patient with us, especially when it comes to posting teasers from here on out. We're planning to stick more strictly to developing the game than anything promotional, as that is where our core objective lies.</p>
+
+  </section>
+  <section id="how_you_can_help">
+  <h2>how you can help</h2>
+<p>The best way you can support us at this moment is simply joining the discord server and spreading the word as much as you can, even share this newsletter with your friends as well!</p>
+
+  </section>
+  <section id="no_funding">
+  <h2>please do not offer to fund the game!!!!</h2>
+
+<p>While we deeply appreciate the gesture, we have majorly agreed to not receive any kind of monetary compensation until AT LEAST the alpha is released. If you REALLY wish to support us individually, then feel free to commission any of us devs that are offering up commissions, but please do not try to give us anything for free.</p>
+<img width="412" height="165" alt="Neptune comms" src="musics/stuff/Neptune%20comms.png" />
+<img width="412" height="165" alt="Neptune comms" src="musics/stuff/dottoe.png" />
+<img width="386" height="347" alt="image" src="image.png" />
+
+
+  </section>
+  <section id="conclusion">
+  <h2>conclusion</h2>
+<p>Thank you all so SO much for reading this in its entirety, and if you skipped here, that's fine too, not sure why you'd do that, but I hope you got what you came for. With everything said, have a great spooky month, and as always, do remember to spread the love</p>
+<img width="800" height="397" alt="Spookygang spookydance" src="musics/stuff/Spookgang spookydance.gif" />
+<br>
+<br>
+  </section>
+  <a class="link_btn brand_discord" href="https://discord.gg/ucQkhQn86K" target="_blank" rel="noopener">Discord</a>
+  <a class="link_btn brand_x" href="https://x.com/RealTypoProduct?s=20" target="_blank" rel="noopener">X</a>
+  <a class="link_btn brand_tiktok" href="https://www.tiktok.com/@official.typo.pro?_r=1&_t=ZN-9AbnxtuSAC6" target="_blank" rel="noopener">TikTok</a>
+  </footer>
+  <div class="credits">
+  <p>website hosted in <a href="https://github.com" target="_blank" rel="noopener">Github</a></p>
+  <p>created with love by typoproductions</p>
+  </div>
+</main>
+<div class="scroll_rail" id="scroll_rail">
+  <div class="scroll_thumb" id="scroll_thumb" role="scrollbar" aria-controls="page"
+  aria-orientation="vertical" aria-label="scroll position" aria-valuemin="0"
+  aria-valuemax="100" aria-valuenow="0" tabindex="0"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
