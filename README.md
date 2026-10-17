@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">OCTOBER</h1>
+<h1 style="text-align: center;">~OCTOBER~</h1>
 <h2 style="text-align: center;">Newsletter</h2>
 <p style="text-align: center;">Welcome to the newsletter this October! We will be doing this every month, so be sure to check this page every month!</p>
 <h3 style="text-align: center;">About Us So Far</h3>
